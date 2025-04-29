@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">PeerBuddy</string>
+    <string name="beranda">Beranda</string>
+    <string name="profile">Profile</string>
+    <string name="riwayat">Riwayat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lokasi_peerbuddy_terdekat">Lokasi PeerBuddy Terdekat</string>
+    <string name="maps">maps</string>
+    <string name="brain_wise">Brain-wise</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="chat_dengan_peerbuddy">Chat dengan \n PeerBuddy</string>
+    <string name="hallo">Hallo,</string>
+    <string name="jhon_doe">Jhon doe</string>
 </resources>

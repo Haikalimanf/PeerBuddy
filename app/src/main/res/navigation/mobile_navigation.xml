@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_beranda">
+
+    <fragment
+        android:id="@+id/navigation_beranda"
+        android:name="com.example.peerbuddy.ui.beranda.BerandaFragment"
+        android:label="@string/beranda"
+        tools:layout="@layout/fragment_beranda" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.peerbuddy.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_riwayat"
+        android:name="com.example.peerbuddy.ui.riwayat.RiwayatFragment"
+        android:label="@string/riwayat"
+        tools:layout="@layout/fragment_riwayat" />
+
+</navigation>
