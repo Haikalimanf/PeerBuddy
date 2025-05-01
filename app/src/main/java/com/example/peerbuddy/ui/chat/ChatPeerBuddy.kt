@@ -31,11 +31,9 @@ class ChatPeerBuddy : AppCompatActivity() {
             setBackgroundDrawable(ColorDrawable(ContextCompat.getColor(this@ChatPeerBuddy, R.color.green)))
         }
 
-        // Inisialisasi RecyclerView
         rvCounselors = findViewById(R.id.rv_counselors)
         rvCounselors.setHasFixedSize(true)
 
-        // Tambahkan data dummy
         list.addAll(getListCounselors())
         showRecyclerList()
     }
