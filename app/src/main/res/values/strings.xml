@@ -12,4 +12,8 @@
     <string name="chat_dengan_peerbuddy">Chat dengan \n PeerBuddy</string>
     <string name="hallo">Hallo,</string>
     <string name="jhon_doe">Jhon doe</string>
+    <string name="sangat_sering">Sangat Sering</string>
+    <string name="cukup_sering">Cukup Sering</string>
+    <string name="kadang_kadang">Kadang-kadang</string>
+    <string name="tidak_pernah">Tidak pernah</string>
 </resources>

@@ -1,7 +1,9 @@
 package com.example.peerbuddy.data.local
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
+import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
 
@@ -9,9 +11,14 @@ import androidx.room.Transaction
 interface QuestionDao {
     // Mengambil pertanyaan berdasarkan ID
     @Query("SELECT * FROM question WHERE question_id = :question_Id")
-    suspend fun getQuestionById(question_Id: Int): Question
+    fun getQuestionById(question_Id: Int): LiveData<List<Question>>
 
-    // Mengupdate skor di tabel History berdasarkan history_id
-    @Query("UPDATE history SET skor = :newScore WHERE history_id = :historyId")
-    suspend fun updateScore(newScore: Int, historyId: Int)
+    @Query("SELECT * FROM History")
+    fun getAllHistory(): List<History>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertHistory(history: History)
+
+    @Query("SELECT COUNT(*) FROM question")
+    fun getQuestionCount(): LiveData<Int>
 }

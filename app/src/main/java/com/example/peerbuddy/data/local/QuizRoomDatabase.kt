@@ -5,9 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [Question::class, History::class], version = 1, exportSchema = false)
+@Database(entities = [Question::class, History::class], version = 1)
 abstract class QuizRoomDatabase: RoomDatabase() {
-    abstract val questionDao: QuestionDao
+    abstract fun questionDao(): QuestionDao
 
     companion object {
         @Volatile
@@ -24,5 +24,4 @@ abstract class QuizRoomDatabase: RoomDatabase() {
             return INSTANCE as QuizRoomDatabase
         }
     }
-
 }
