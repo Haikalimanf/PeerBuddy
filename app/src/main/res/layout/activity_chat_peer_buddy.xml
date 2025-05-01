@@ -5,6 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.chat.ChatPeerBuddy">
+    tools:context=".ui.chat.ChatPeerBuddy"
+    android:fitsSystemWindows="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_counselors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

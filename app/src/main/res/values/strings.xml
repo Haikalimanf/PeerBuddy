@@ -13,4 +13,58 @@
     <string name="hallo">Hallo,</string>
     <string name="jhon_doe">Jhon doe</string>
     <string name="tv_splashscreen">“ Hai! Aku YourPeerBuddy. Sahabat cerdas yang selalu ada untuk jaga kesehatan mentalmu!!” </string>
+    <string name="counselor_name">Nama Counselor</string>
+    <string name="profession">Profesi</string>
+
+    <string-array name="data_name">
+        <item>Andi Setiawan</item>
+        <item>Dewi Lestari</item>
+        <item>Rizky Pratama</item>
+        <item>Siti Nurhaliza</item>
+        <item>Budi Santoso</item>
+        <item>Lina Marlina</item>
+        <item>Fajar Nugroho</item>
+        <item>Melati Putri</item>
+        <item>Arif Rahman</item>
+        <item>Citra Anggraini</item>
+    </string-array>
+
+    <string-array name="data_profession">
+        <item>Psikologi UGM</item>
+        <item>Psikologi UI</item>
+        <item>Psikologi Unair</item>
+        <item>Psikologi Unpad</item>
+        <item>Psikologi Undip</item>
+        <item>Psikologi UGM</item>
+        <item>Psikologi UI</item>
+        <item>Psikologi Unair</item>
+        <item>Psikologi Unpad</item>
+        <item>Psikologi Undip</item>
+    </string-array>
+
+    <string-array name="data_phone_number">
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+        <item>6282136258765</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/counselor1</item>
+        <item>@drawable/counselor2</item>
+        <item>@drawable/counselor4</item>
+        <item>@drawable/counselor3</item>
+        <item>@drawable/counselor6</item>
+        <item>@drawable/counselor5</item>
+        <item>@drawable/counselor8</item>
+        <item>@drawable/counselor7</item>
+        <item>@drawable/counselor10</item>
+        <item>@drawable/counselor9</item>
+    </array>
 </resources>
