@@ -3,7 +3,6 @@
     <string name="beranda">Beranda</string>
     <string name="profile">Profile</string>
     <string name="riwayat">Riwayat</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lokasi_peerbuddy_terdekat">Lokasi PeerBuddy Terdekat</string>
     <string name="maps">maps</string>
@@ -67,4 +66,11 @@
         <item>@drawable/counselor10</item>
         <item>@drawable/counselor9</item>
     </array>
+  
+    <string name="sangat_sering">Sangat Sering</string>
+    <string name="cukup_sering">Cukup Sering</string>
+    <string name="kadang_kadang">Kadang-kadang</string>
+    <string name="tidak_pernah">Tidak pernah</string>
+    <string name="hasil_tes_ke">Hasil Tes ke-%1$d</string>
+    <string name="pemberitahuan_data_riwayat_kosong">Belum ada riwayat, silahkan lakukan tes terlebih dahulu pada Mental Health</string>
 </resources>
