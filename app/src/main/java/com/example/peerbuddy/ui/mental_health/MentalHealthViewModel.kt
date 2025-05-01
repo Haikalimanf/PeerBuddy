@@ -15,7 +15,6 @@ class MentalHealthViewModel(application: Application): AndroidViewModel(applicat
         return mQuizRepository.getQuestionById(id)
     }
 
-    fun getAllHistory() = mQuizRepository.getAllHistory()
 
     fun insert(history: History) {
         mQuizRepository.insert(history)

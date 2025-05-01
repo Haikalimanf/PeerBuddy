@@ -1,7 +1,6 @@
 package com.example.peerbuddy.ui.mental_health
 
 import android.app.AlertDialog
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -9,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.example.peerbuddy.R
@@ -88,26 +88,29 @@ class QuizFragment : Fragment() {
         }
 
         binding.btnSubmit.setOnClickListener {
-            if (questionId < totalQuestions) {
-                questionId++
-                Log.d("NomerQuiz", "questionId: $questionId")
-                Log.d("NomerQuiz", "totalQuestions: $totalQuestions")
-                loadQuestion(questionId)
+            if (pilihanSkor == 0) {
+                Toast.makeText(requireContext(), "Silakan pilih jawaban terlebih dahulu", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
 
-            if (questionId == totalQuestions) {
-                binding.btnSubmit.text = "Submit"
-                binding.btnSubmit.setOnClickListener {
-                    showCompletionDialog()
-                }
+            skorSementara += pilihanSkor
+
+            if (questionId < totalQuestions) {
+                questionId++
+                loadQuestion(questionId)
+                pilihanSkor = 0
+                binding.btnSubmit.text = if (questionId == totalQuestions) "Submit" else "Next"
+            } else {
                 val newHistory = History(
                     skor = skorSementara,
                     question_id = 0,
                     date = DateHelper.getCurrentDate()
                 )
                 viewModel.insert(newHistory)
+                showCompletionDialog()
             }
         }
+
     }
 
     private fun showCompletionDialog() {

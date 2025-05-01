@@ -14,10 +14,13 @@ interface QuestionDao {
     fun getQuestionById(question_Id: Int): LiveData<List<Question>>
 
     @Query("SELECT * FROM History")
-    fun getAllHistory(): List<History>
+    fun getAllHistory(): LiveData<List<History>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertHistory(history: History)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertQuestion(questions: List<Question>)
 
     @Query("SELECT COUNT(*) FROM question")
     fun getQuestionCount(): LiveData<Int>

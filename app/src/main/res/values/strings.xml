@@ -16,4 +16,6 @@
     <string name="cukup_sering">Cukup Sering</string>
     <string name="kadang_kadang">Kadang-kadang</string>
     <string name="tidak_pernah">Tidak pernah</string>
+    <string name="hasil_tes_ke">Hasil Tes ke-%1$d</string>
+    <string name="pemberitahuan_data_riwayat_kosong">Belum ada riwayat, silahkan lakukan tes terlebih dahulu pada Mental Health</string>
 </resources>

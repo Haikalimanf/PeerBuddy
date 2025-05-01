@@ -21,7 +21,7 @@ class QuizRepository(application: Application) {
 
     fun getQuestionById(id : Int): LiveData<List<Question>> = mQuestionDao.getQuestionById(id)
 
-    fun getAllHistory(): List<History> = mQuestionDao.getAllHistory()
+    fun getAllHistory(): LiveData<List<History>> = mQuestionDao.getAllHistory()
 
     fun insert(history: History) {
         executorService.execute { mQuestionDao.insertHistory(history) }
