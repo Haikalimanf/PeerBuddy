@@ -12,4 +12,10 @@
     <string name="chat_dengan_peerbuddy">Chat dengan \n PeerBuddy</string>
     <string name="hallo">Hallo,</string>
     <string name="jhon_doe">Jhon doe</string>
+    <string name="sangat_sering">Sangat Sering</string>
+    <string name="cukup_sering">Cukup Sering</string>
+    <string name="kadang_kadang">Kadang-kadang</string>
+    <string name="tidak_pernah">Tidak pernah</string>
+    <string name="hasil_tes_ke">Hasil Tes ke-%1$d</string>
+    <string name="pemberitahuan_data_riwayat_kosong">Belum ada riwayat, silahkan lakukan tes terlebih dahulu pada Mental Health</string>
 </resources>

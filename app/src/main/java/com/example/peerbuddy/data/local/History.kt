@@ -19,4 +19,7 @@ data class History(
 
     @ColumnInfo(name = "question_id")
     var question_id: Int = 0,
+
+    @ColumnInfo(name = "date")
+    var date: String? = null
 ): Parcelable
