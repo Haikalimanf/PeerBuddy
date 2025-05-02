@@ -1,10 +1,10 @@
-# PeerBuddy - Aplikasi Kesehatan Mental
+# YourPeerBuddy - Aplikasi Kesehatan Mental
 
-PeerBuddy adalah aplikasi kesehatan mental yang dirancang untuk memberikan dukungan, sumber daya, dan fitur interaktif untuk mempromosikan kesejahteraan mental. Aplikasi ini mengikuti pola arsitektur MVVM (Model-View-ViewModel), memastikan kode yang bersih dan mudah dipelihara. Proyek ini dibangun dengan praktik terbaik, memisahkan tanggung jawab aplikasi ke dalam lapisan-lapisan yang jelas untuk memudahkan pengujian, skalabilitas, dan pemeliharaan.
+YourPeerBuddy adalah aplikasi kesehatan mental yang dirancang untuk memberikan dukungan, sumber daya, dan fitur interaktif untuk mempromosikan kesejahteraan mental. Aplikasi ini mengikuti pola arsitektur MVVM (Model-View-ViewModel), memastikan kode yang bersih dan mudah dipelihara. Proyek ini dibangun dengan praktik terbaik, memisahkan tanggung jawab aplikasi ke dalam lapisan-lapisan yang jelas untuk memudahkan pengujian, skalabilitas, dan pemeliharaan.
 
 ## Arsitektur
 
-PeerBuddy mengikuti pola arsitektur **MVVM (Model-View-ViewModel)**, yang mempromosikan pemisahan yang jelas antara UI dan logika dasar aplikasi. Berikut adalah penjelasan tentang struktur proyek:
+YourPeerBuddy mengikuti pola arsitektur **MVVM (Model-View-ViewModel)**, yang mempromosikan pemisahan yang jelas antara UI dan logika dasar aplikasi. Berikut adalah penjelasan tentang struktur proyek:
 
 ### Struktur Folder
 
@@ -51,7 +51,7 @@ Folder `utils` berisi fungsi utilitas, kelas pembantu, dan fungsi ekstensi yang 
 
 ## Cara Menjalankan Aplikasi
 
-Untuk menjalankan aplikasi PeerBuddy, ikuti langkah-langkah di bawah ini:
+Untuk menjalankan aplikasi YourPeerBuddy, ikuti langkah-langkah di bawah ini:
 
 1. Kloning repositori:
     ```bash
