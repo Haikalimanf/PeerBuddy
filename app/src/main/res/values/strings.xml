@@ -73,4 +73,5 @@
     <string name="tidak_pernah">Tidak pernah</string>
     <string name="hasil_tes_ke">Hasil Tes ke-%1$d</string>
     <string name="pemberitahuan_data_riwayat_kosong">Belum ada riwayat, silahkan lakukan tes terlebih dahulu pada Mental Health</string>
+    <string name="peringatan_masih_tahap_pengembangan">Fitur ini masih dalam tahap pengembangan</string>
 </resources>
