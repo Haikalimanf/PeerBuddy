@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PeerBuddy</string>
+    <string name="app_name">Your Peer Buddy</string>
     <string name="beranda">Beranda</string>
     <string name="profile">Profile</string>
     <string name="riwayat">Riwayat</string>
@@ -8,10 +8,10 @@
     <string name="maps">maps</string>
     <string name="brain_wise">Brain-wise</string>
     <string name="mental_health">Mental Health</string>
-    <string name="chat_dengan_peerbuddy">Chat dengan \n PeerBuddy</string>
+    <string name="chat_dengan_peerbuddy">Chat dengan \n Peer Buddy</string>
     <string name="hallo">Hallo,</string>
     <string name="jhon_doe">Jhon doe</string>
-    <string name="tv_splashscreen">“ Hai! Aku YourPeerBuddy. Sahabat cerdas yang selalu ada untuk jaga kesehatan mentalmu!!” </string>
+    <string name="tv_splashscreen">“ Hai! Aku Your Peer Buddy. Sahabat cerdas yang selalu ada untuk jaga kesehatan mentalmu!!” </string>
     <string name="counselor_name">Nama Counselor</string>
     <string name="profession">Profesi</string>
 
@@ -29,16 +29,16 @@
     </string-array>
 
     <string-array name="data_profession">
-        <item>Psikologi UGM</item>
-        <item>Psikologi UI</item>
-        <item>Psikologi Unair</item>
-        <item>Psikologi Unpad</item>
-        <item>Psikologi Undip</item>
-        <item>Psikologi UGM</item>
-        <item>Psikologi UI</item>
-        <item>Psikologi Unair</item>
-        <item>Psikologi Unpad</item>
-        <item>Psikologi Undip</item>
+        <item>Psikolog UGM</item>
+        <item>Psikolog UI</item>
+        <item>Psikolog Unair</item>
+        <item>Psikolog Unpad</item>
+        <item>Psikolog Undip</item>
+        <item>Psikolog UGM</item>
+        <item>Psikolog UI</item>
+        <item>Psikolog Unair</item>
+        <item>Psikolog Unpad</item>
+        <item>Psikolog Undip</item>
     </string-array>
 
     <string-array name="data_phone_number">
